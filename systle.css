@@ -12,6 +12,7 @@
     align-items: center;
     padding: 30px 50px;
     color: white;
+    cursor: pointer;
 }
 
 .logo {
@@ -24,6 +25,14 @@
     gap: 30px;
     list-style: none;
     align-items: center;
+}
+.but{
+    background-color: rgb(170, 170, 221);
+    color: white;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: rgb(202, 123, 123);
 }
 .body{
     margin-top: 5px;
