@@ -6,23 +6,24 @@
     background-size: cover;
     padding-left: 10px;
 }
-.nav{
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.nav-links {
     display: flex;
     gap: 30px;
     list-style: none;
-    padding-top: 30px;
-    padding-bottom: 40px;
-    color: white;
-    cursor: pointer;
-}
-button{
-    background-color: rgb(78, 78, 97);
-    font-size: 15px;
-    color: white;
-    border: none;
-    padding-right: 15px;
-    cursor: pointer;
-    
+    align-items: center;
 }
 .body{
     margin-top: 5px;
@@ -52,4 +53,7 @@ button{
     gap: 100px;
     cursor: pointer;
     
+}
+.button:hover{
+    background-color: blue;
 }
